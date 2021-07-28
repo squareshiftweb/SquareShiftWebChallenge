@@ -83,8 +83,8 @@ public void scenarioThree() throws InterruptedException {
 
 @AfterMethod
 public void teardown(){
-//    driver.close();
-//    driver.quit();
+    driver.close();
+    driver.quit();
 }
 
 public void validateURL(String url){
